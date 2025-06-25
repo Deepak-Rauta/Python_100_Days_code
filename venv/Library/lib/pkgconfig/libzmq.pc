@@ -1,0 +1,12 @@
+prefix=e:/Python_Basic/venv/Library
+exec_prefix=e:/Python_Basic/venv/Library
+libdir=e:/Python_Basic/venv/Library/lib
+includedir=e:/Python_Basic/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
